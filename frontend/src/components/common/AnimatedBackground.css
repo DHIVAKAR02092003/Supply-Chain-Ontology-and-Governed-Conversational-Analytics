@@ -1,0 +1,77 @@
+.animated-factory-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.07;
+  transition: opacity 0.3s ease;
+}
+
+body.light-mode .animated-factory-bg {
+  opacity: 0.12;
+}
+
+.factory-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.floor-grid-line {
+  stroke: var(--text-muted);
+  stroke-width: 0.5;
+  opacity: 0.1;
+}
+
+.track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 32;
+  stroke-dasharray: 12, 12;
+  opacity: 0.2;
+}
+
+.item {
+  fill: var(--accent);
+  filter: drop-shadow(0 2px 4px var(--accent-glow));
+}
+
+.machine {
+  fill: var(--bg-tertiary);
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+
+.machine-center {
+  fill: var(--bg-secondary);
+  stroke: var(--accent-light);
+  stroke-width: 4;
+}
+
+.machine-gear {
+  fill: transparent;
+  stroke: var(--text-muted);
+  stroke-width: 4;
+  stroke-dasharray: 8, 4;
+  animation: spin 10s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.machine-gear-large {
+  fill: transparent;
+  stroke: var(--accent);
+  stroke-width: 6;
+  stroke-dasharray: 15, 8;
+  animation: spin 15s linear infinite reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

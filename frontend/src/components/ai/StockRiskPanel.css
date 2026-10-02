@@ -1,0 +1,82 @@
+.stock-risk-section {
+  margin-bottom: 32px;
+}
+
+.stock-risk-section .section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stock-risk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.stock-risk-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  border-left: 3px solid var(--border);
+}
+
+.stock-risk-card.risk-critical {
+  border-left-color: #ef4444;
+}
+
+.stock-risk-card.risk-low {
+  border-left-color: #f59e0b;
+}
+
+.stock-risk-card.risk-healthy {
+  border-left-color: #22c55e;
+}
+
+.stock-risk-card.risk-overstock {
+  border-left-color: #3b82f6;
+}
+
+.risk-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.risk-critical .risk-card-header { color: #ef4444; }
+.risk-low .risk-card-header { color: #f59e0b; }
+.risk-healthy .risk-card-header { color: #22c55e; }
+.risk-overstock .risk-card-header { color: #3b82f6; }
+
+.risk-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.risk-product {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.risk-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.stock-risk-loading {
+  padding: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-style: italic;
+}

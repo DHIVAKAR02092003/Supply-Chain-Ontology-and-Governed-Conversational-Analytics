@@ -1,0 +1,71 @@
+.theme-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 16px; 
+}
+
+.toggle-track {
+  position: relative;
+  width: 64px;
+  height: 34px;
+  background: var(--bg-tertiary);
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.toggle-track.light {
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+}
+
+.toggle-thumb {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  z-index: 2;
+}
+
+.toggle-track.dark .toggle-thumb {
+  transform: translateX(30px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-track.light .toggle-thumb {
+  transform: translateX(0);
+}
+
+.toggle-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 8px;
+  z-index: 1;
+}
+
+.icon-moon {
+  color: var(--text-muted);
+}
+
+.icon-sun {
+  color: var(--text-muted);
+}
+
+.toggle-track.light .icon-moon {
+  color: #94a3b8;
+}
+
+.toggle-track.light .icon-sun {
+  color: #f59e0b;
+}

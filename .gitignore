@@ -1,0 +1,40 @@
+# Environment / Secrets
+backend/.env
+.env
+*.env
+!.env.example
+!backend/.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / Logs
+*.log
+npm-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Snowflake CoCo
+.snowflake/
