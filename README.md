@@ -479,4 +479,4 @@ GCC CLI - HACKATHON/
 
 ---
 
-*Built entirely using Snowflake Cortex Code Desktop (CoCo) for the GCC CLI Hackathon.*
+
