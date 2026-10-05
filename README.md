@@ -5,6 +5,8 @@
 **Team:** Pro-Scientists | **Leader:** Krishna Apil Chowdary Morampudi | **Size:** 3 | **Hackathon:** CoCo CLI Hackathon GCC Edition
 
 **Live Application:** [https://eqzfdtb-pmktxrp-ceb03210.snowflakecomputing.app](https://eqzfdtb-pmktxrp-ceb03210.snowflakecomputing.app)
+**User Name:** KRISHNA
+**Password:** Kasmo@123456789
 
 ---
 
@@ -28,6 +30,24 @@
 - [Future Roadmap](#future-roadmap)
 
 ---
+
+**Snapshots:**
+
+**1.Home Page:**
+<img width="1918" height="1069" alt="image" src="https://github.com/user-attachments/assets/14f1a5de-9dbd-4b6a-be7d-7e21cd9bb319" />
+
+**2. Ontology (Architecture || Live Workflow):**
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/4b9ffbd7-afed-48f5-95a3-be84ec93e402" />
+
+**3. Manufacturing Manager (AI Insights) :** 
+<img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/e058036a-ebfe-435b-8825-6485fbd120c3" />
+
+**4. Sales Manager (Executive KPI's):**
+<img width="1912" height="1009" alt="image" src="https://github.com/user-attachments/assets/4246afc4-8ffc-49c4-8c9a-4ff4a8203d9e" />
+
+**5. Live Agent:** 
+<img width="953" height="526" alt="image" src="https://github.com/user-attachments/assets/c3215b83-d3d8-4d0a-9c57-04ac1cce014a" />
+
 
 ## Problem Statement
 
